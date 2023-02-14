@@ -34,3 +34,5 @@ export interface Country {
   area: number;
   population: number;
 }
+
+export type BadgeLabel = "area" | "population";

@@ -1,5 +1,5 @@
-import { CountryApi } from "../../types/types";
-import { Country } from "../../types/types";
+import { CountryApi } from "../types/types";
+import { Country } from "../types/types";
 
 export const transformCountries = (countries: CountryApi[]): Country[] => {
   return countries.map(

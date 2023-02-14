@@ -2,11 +2,11 @@ import React from "react";
 import { CountryItem } from "../CountryItem/CountryItem";
 import { Country } from "../../types/types";
 
-interface CountriesProps {
+interface CountryListProps {
   countries: Country[];
 }
 
-export const CountryList = ({ countries }: CountriesProps) => {
+export const CountryList = ({ countries }: CountryListProps) => {
   return (
     <ul className="list-group">
       {countries.map((country) => (
